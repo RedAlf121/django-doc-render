@@ -1,6 +1,0 @@
-Metadata-Version: 2.4
-Name: documentation-render
-Version: 0.1.0
-Summary: To build clean, navigable documentation using nothing but Markdown and Django.
-Author-email: RedAlf121 <andezmgk@gmail.com>
-Requires-Dist: django>=4.0
