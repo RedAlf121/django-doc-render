@@ -1,0 +1,9 @@
+[project]
+name = "django-documentation-render"
+version = "0.1.0"
+description = "To build clean, navigable documentation using nothing but Markdown and Django."
+authors = [{ name="RedAlf121", email="andezmgk@gmail.com" }]
+dependencies = ["django>=4.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
