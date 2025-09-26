@@ -1,4 +1,5 @@
 build
+dist
 django_project
 doc_files
 documentation
