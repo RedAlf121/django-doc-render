@@ -14,7 +14,15 @@ Follow these steps to integrate the Docs App into your Django project:
 1. Install the app
 
 Clone this repository and copy the documentation app into your Django project. 
-
+Then, install the following dependencies:
+*   Markdown
+*   Pygments
+```python
+pip install Markdown
+```
+```python
+pip install Pygments
+```
 Then, add it to your INSTALLED_APPS in settings.py:
 ```
 INSTALLED_APPS = [
@@ -48,3 +56,11 @@ python manage.py runserver
 Then go to the **docs/** url.
 
 And that's it! You're ready to build clean, navigable documentation using nothing but Markdown and Django.
+
+# Future features
+
+Now I'm trying to make this plugin an installable package
+
+```python
+pip install django-documents
+```
