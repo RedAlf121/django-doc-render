@@ -8,7 +8,7 @@ def load_markdown(template_name):
     with open(path,'r',encoding='utf-8') as file:
         md_file = file.read()
     
-    rendered_file = markdown.markdown(md_file,extensions=['fenced_code','tables'])
+    rendered_file = markdown.markdown(md_file,extensions=['fenced_code','codehilite','tables', 'nl2br','extra'])
 
     return rendered_file
 
