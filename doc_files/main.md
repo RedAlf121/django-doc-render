@@ -8,6 +8,11 @@ Enlace de [prueba](other.md)
 * lista2
 * lista3
 
-```
+```python
 pip install numpy
+```
+
+```python
+import numpy as np
+np.array([1,2,3,4])
 ```
