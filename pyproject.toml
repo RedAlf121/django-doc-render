@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-documentation-render"
+version = "0.2.0"
+description = "To build clean, navigable documentation using nothing but Markdown and Django."
+authors = [{ name = "RedAlf121", email = "andezmgk@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["django>=4.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
