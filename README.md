@@ -18,7 +18,7 @@ Then, install the following dependencies:
 *   Markdown
 *   Pygments
 ```python
-pip install Markdown
+pip install markdown
 ```
 ```python
 pip install Pygments
